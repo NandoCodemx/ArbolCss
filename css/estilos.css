@@ -1,0 +1,79 @@
+img{
+    width: 95px;
+    height: 90px;
+    position: absolute;
+    top: 160px;
+    left: 203px;
+}
+div.arbol{
+    align-items: center;
+}
+.tronco{
+    width: 95px;
+    height: 100px;
+    background-color: rgb(119, 67, 19);
+    border: 2px solid rgb(102, 55, 16);
+    /*transform: translate(200px,300px);*/
+    position: absolute;
+    top: 400px;
+    left: 203px;
+}
+div.ramas{
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-top: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid #096606;
+    position: absolute;
+    top: 220px;
+    left: 150px;
+}
+div.ramas2{
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-top: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid #096606;
+    position: absolute;
+    top:  170px;
+    left: 150px;
+}
+div.ramas3{
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-top: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid #096606;
+    position: absolute;
+    top:  120px;
+    left: 150px;
+}
+div.esferas{
+    width: 40px;
+    height: 40px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #c1f505;
+    position: absolute;
+    top:  400px;
+    left: 130px;
+}
+div.esferas2{
+    width: 40px;
+    height: 40px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #c70707;
+    position: absolute;
+    top:  350px;
+    left: 330px;
+}
+div{
+    border-radius: 10px;
+    
+}
